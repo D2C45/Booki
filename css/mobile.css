@@ -1,0 +1,100 @@
+header{
+    padding: 0;
+}
+/*------------------------------------------------------------
+                        header
+------------------------------------------------------------*/
+header{
+    flex-direction: column;
+    margin-bottom: 27px;
+}
+
+#logo{
+    margin: auto;
+}
+
+nav{
+    width: 100%;
+}
+
+.header__link{
+    width: 50%;
+    padding: 15px 0;
+    text-align: center;
+    border-bottom-color: #f2f2f2;
+}
+
+.header__link:hover, .header__link:focus{
+    border-bottom-color: #0065FC;
+    border-top-color: transparent;
+}
+/*------------------------------------------------------------
+                        search section
+------------------------------------------------------------*/
+form{
+    margin-top: 35px;
+}
+
+.fa-search{
+    display: contents;
+}
+
+#btn__rechercher span{
+    display: none;
+}
+
+#btn__rechercher{
+    border-radius: 15px;
+}
+/*------------------------------------------------------------
+                        accomodation section
+------------------------------------------------------------*/
+.accomodation__popular__articles{
+    flex-direction: column;
+}
+
+.asidecard{
+    min-height: 144px;
+    max-height: 144px;
+    max-width: 100%;
+}
+/*------------------------------------------------------------
+                        activities section
+------------------------------------------------------------*/
+.activities__block{
+    height: auto;
+}
+
+.activities__cardcontent{
+    height: 190px;
+}
+
+.activities__column{
+    flex-direction: column;
+    min-width: 230px;
+}
+
+.activities__column:nth-child(3){
+    order: -1;
+}
+
+@media screen and (max-width: 519px)
+{
+    .activities__column:nth-child(3){
+        order: 1;
+    }
+}
+/*------------------------------------------------------------
+                        footer
+------------------------------------------------------------*/
+.footer_wrapper{
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer__nav{
+    min-width: 230px;
+}
+
+
+
